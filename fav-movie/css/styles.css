@@ -1,0 +1,21 @@
+#types {
+    background-color: #129993;
+    height: 200px;
+}
+
+#main {
+    background-color: #929139;
+    height: 400px;
+}
+
+.pill {
+    height: 100px;
+    background-color: #325759;
+    margin-bottom: 20px;
+}
+
+.free {
+    height: 50px;
+    background-color: #f12d56;
+    margin: 10px;
+}
