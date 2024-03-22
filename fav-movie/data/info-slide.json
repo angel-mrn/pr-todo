@@ -1,0 +1,40 @@
+{
+    "knowledge" : [
+        {
+            "title" : "Introducción al Mundo de la Mafia",
+            "description" : "La película comienza con la celebración de la boda de la hija de Don Vito Corleone, jefe de la familia Corleone, donde se presentan varios personajes clave y se establece el ambiente de la mafia en Nueva York en la década de 1940."
+        },
+        {
+            "title" : "Atentado contra Don Vito Corleone",
+            "description" : "Durante la boda, se lleva a cabo un intento de asesinato contra Don Vito, lo que desencadena la trama principal de la película y establece el conflicto entre las diferentes familias mafiosas."
+        },
+        {
+            "title" : "Michael Corleone asume el Control",
+            "description" : "Después del atentado, Michael Corleone, el hijo menor de Don Vito, comienza a involucrarse en los asuntos de la familia y eventualmente toma el control de las operaciones de la mafia."
+        },
+        {
+            "title" : "La Venganza de Michael",
+            "description" : "Michael ejecuta a los responsables del atentado contra su padre, así como a otros enemigos de la familia, consolidando su posición como el nuevo líder de la familia Corleone."
+        },
+        {
+            "title" : "La Guerra de las Familias",
+            "description" : "Se desencadena una guerra entre las familias mafiosas rivales, con enfrentamientos violentos y estrategias para consolidar el poder en el mundo del crimen organizado."
+        },
+        {
+            "title" : "La Huida de Michael",
+            "description" : "Michael se ve obligado a huir a Sicilia para escapar de la violencia y se refugia en la casa de su padre, donde se enamora de una joven local y reflexiona sobre su futuro."
+        },
+        {
+            "title" : "Regreso a Nueva York",
+            "description" : "Michael regresa a Nueva York y se compromete a tomar medidas drásticas para proteger a su familia y su imperio, lo que incluye la traición y el asesinato de antiguos aliados."
+        },
+        {
+            "title" : "Consolidación del Poder",
+            "description" : "Michael consolida su poder como líder de la familia Corleone y expande su influencia en el mundo de la mafia, utilizando tácticas políticas y económicas para fortalecer su posición."
+        },
+        {
+            "title" : "El Legado de Don Vito Corleone",
+            "description" : "La película concluye con Michael asumiendo oficialmente el papel de padrino y reflexionando sobre el legado de su padre, Don Vito, mientras continúa navegando por las complejas dinámicas de la familia y la mafia."
+        }
+    ]
+}

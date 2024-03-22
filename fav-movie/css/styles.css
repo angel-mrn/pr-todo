@@ -1,95 +1,20 @@
 @import url('normalize.css');
+@import url('nav.css');
 
 * {
     font-family: "Oswald", sans-serif;
-    color: #FFFFFF;
     font-weight: 300;
 }
 
-.navRe {
-    background-color: #000000;
+body {
+    background-color: #2B2B2B;
 }
 
-.navRe .navbar-collapse {
-    color: #FFFFFF;
+.heroRe {
+    min-height: 250px;
 }
 
-.navRe .navbar-brand {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 25px 0 10px;
+.heroRe .carousel {
+    height: 100%;
 }
 
-.navRe .navbar-brand img {
-    height: 40px;
-}
-
-.navRe .navbar-brand h1 {
-    font-size: 30px;
-    margin: 0px;
-    padding: 10px;
-    color: #FED600;
-}
-
-.navRe .navbar-toggler {
-    background-color: #FFFFFF;
-    border: none;
-}
-
-.navRe #navbarSupportedContent {
-    width: 100%;
-    padding: 0 50px;
-}
-
-.navRe #navbarSupportedContent ul {
-    width: 100%;
-    justify-content: space-around;
-}
-
-.navRe #navbarSupportedContent ul .nav-link {
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 20px;
-    text-align: center;
-}
-
-.navRe #navbarSupportedContent ul .nav-link:hover {
-    color: #A72F2F;
-}
-
-.navRe #navbarSupportedContent ul .dropdown-menu {
-    background-color: #FFFFFF;
-    letter-spacing: 1px;
-    padding: 0;
-    width: 200px;
-}
-
-.navRe #navbarSupportedContent ul .dropdown-menu .dropdown-item {
-    padding: 15px 20px;
-    font-size: 15px;
-    font-weight: 500;
-}
-
-.navRe #navbarSupportedContent ul .dropdown-menu .dropdown-item:hover {
-    background-color: #000000;
-    color: #FFFFFF;
-}
-
-.navRe #navbarSupportedContent ul .dropdown-menu .dropdown-divider {
-    margin: 0;
-    background-color: #FFFFFF;
-}
-
-@media screen and (max-width: 768px) {
-    .navRe #navbarSupportedContent ul .dropdown-menu .dropdown-item {
-        background-color: #000000;
-        color: #FFFFFF;
-        font-weight: 700;
-        font-size: 20px;
-    }
-
-    .navRe #navbarSupportedContent ul .dropdown-menu .dropdown-divider {
-        display: none;
-    }
-}
