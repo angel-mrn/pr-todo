@@ -1,21 +1,59 @@
-#types {
-    background-color: #129993;
-    height: 200px;
+@import url('normalize.css');
+
+* {
+    font-family: "Oswald", sans-serif;
+    color: #FFFFFF;
+    font-weight: 300;
+
 }
 
-#main {
-    background-color: #929139;
-    height: 400px;
+.navRe {
+    background-color: #000000;
 }
 
-.pill {
-    height: 100px;
-    background-color: #325759;
-    margin-bottom: 20px;
+.navRe .navbar-collapse {
+    color: #FFFFFF;
 }
 
-.free {
-    height: 50px;
-    background-color: #f12d56;
-    margin: 10px;
+.navRe .navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 25px 0 10px;
+}
+
+.navRe .navbar-brand img {
+    height: 40px;
+}
+
+.navRe .navbar-brand h1 {
+    font-size: 25px;
+    margin: 0px;
+    padding: 10px;
+    color: #FED600;
+}
+
+.navRe .navbar-toggler {
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.navRe #navbarSupportedContent {
+    width: 100%;
+    padding: 0 50px;
+}
+
+.navRe #navbarSupportedContent ul {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navRe #navbarSupportedContent ul .nav-link {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.navRe #navbarSupportedContent ul .nav-link:hover {
+    color: #A72F2F;
 }
