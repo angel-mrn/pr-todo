@@ -4,7 +4,6 @@
     font-family: "Oswald", sans-serif;
     color: #FFFFFF;
     font-weight: 300;
-
 }
 
 .navRe {
@@ -27,7 +26,7 @@
 }
 
 .navRe .navbar-brand h1 {
-    font-size: 25px;
+    font-size: 30px;
     margin: 0px;
     padding: 10px;
     color: #FED600;
@@ -45,15 +44,52 @@
 
 .navRe #navbarSupportedContent ul {
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .navRe #navbarSupportedContent ul .nav-link {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 20px;
+    text-align: center;
 }
 
 .navRe #navbarSupportedContent ul .nav-link:hover {
     color: #A72F2F;
+}
+
+.navRe #navbarSupportedContent ul .dropdown-menu {
+    background-color: #FFFFFF;
+    letter-spacing: 1px;
+    padding: 0;
+    width: 200px;
+}
+
+.navRe #navbarSupportedContent ul .dropdown-menu .dropdown-item {
+    padding: 15px 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.navRe #navbarSupportedContent ul .dropdown-menu .dropdown-item:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.navRe #navbarSupportedContent ul .dropdown-menu .dropdown-divider {
+    margin: 0;
+    background-color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    .navRe #navbarSupportedContent ul .dropdown-menu .dropdown-item {
+        background-color: #000000;
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .navRe #navbarSupportedContent ul .dropdown-menu .dropdown-divider {
+        display: none;
+    }
 }
