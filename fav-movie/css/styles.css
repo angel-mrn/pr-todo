@@ -1,20 +1,13 @@
 @import url('normalize.css');
 @import url('nav.css');
+@import url('hero.css');
 
 * {
     font-family: "Oswald", sans-serif;
     font-weight: 300;
 }
 
-body {
-    background-color: #2B2B2B;
-}
-
-.heroRe {
-    min-height: 250px;
-}
-
-.heroRe .carousel {
-    height: 100%;
+header {
+    background-color: #0F0F0F;
 }
 
