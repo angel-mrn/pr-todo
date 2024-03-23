@@ -1,8 +1,9 @@
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', () => {
   console.log('Todo ha sido cargado con éxito')
 
   addTextoSlide()
+  addTextoAboutMovie()
 })
 
 
@@ -30,7 +31,49 @@ const addTextoSlide = () => {
   .catch(error => {
     console.error('Error:', error);
   });
-} 
+}
+
+const addTextoAboutMovie = () => {
+  fetch('../data/info-slide.json')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Error al obtener información');
+    }
+    return response.json();
+  })
+  .then(data => {
+    // Info obtenida
+    const { 
+      title, originalTitle, review, director, 
+      productor, country, year, gen
+    } = data["about"];
+
+    document.getElementById('movieTitle').textContent = title
+    document.getElementById('movieTitleOriginal').textContent = originalTitle
+
+    const contenidoInfo = document.getElementById('infoMovie')
+
+    review.forEach(element => {
+      const parrafo = document.createElement('p')
+      parrafo.className = 'reviewMK'
+      parrafo.textContent = element
+
+      contenidoInfo.appendChild(parrafo)
+    })
+
+    document.getElementById('movieDirector').textContent = director
+    document.getElementById('movieProductor').textContent = productor
+    document.getElementById('movieCountry').textContent = country
+    document.getElementById('movieYear').textContent = year
+    document.getElementById('movieGen').textContent = gen
+
+    
+
+  })
+  .catch(e => {
+    console.error('Error:', e);
+  })
+}
 
 
 const handleSliders = () => {

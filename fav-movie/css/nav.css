@@ -57,6 +57,14 @@
     width: 200px;
 }
 
+@media screen and (max-width: 768px) {
+    .navRe #navbarSupportedContent ul .dropdown-menu {
+        border: none;
+        width: 100%;
+        text-align: center;
+    }
+}
+
 .navRe #navbarSupportedContent ul .dropdown-menu .dropdown-item {
     padding: 15px 20px;
     font-size: 15px;

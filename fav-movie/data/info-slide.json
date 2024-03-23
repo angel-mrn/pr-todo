@@ -36,5 +36,19 @@
             "title" : "El Legado de Don Vito Corleone",
             "description" : "La película concluye con Michael asumiendo oficialmente el papel de padrino y reflexionando sobre el legado de su padre, Don Vito, mientras continúa navegando por las complejas dinámicas de la familia y la mafia."
         }
-    ]
+    ],
+    "about" : {
+        "title" : "El padrino",
+        "originalTitle" : "The Godfather",
+        "review" : [
+            "\"El Padrino\" es una obra maestra del cine que trasciende el género de las películas de gangsters para ofrecer una profunda exploración de la familia, el poder y la moralidad. Dirigida magistralmente por Francis Ford Coppola, la película es un estudio fascinante de personajes complejos y conflictos morales.",
+            "La actuación inolvidable de Marlon Brando como Don Vito Corleone y Al Pacino como Michael Corleone eleva la película a nuevas alturas, con su presencia magnética en la pantalla y su profundidad emocional. \"El Padrino\" no solo es una película sobre el crimen organizado, sino también sobre la familia, el honor y los sacrificios que hacemos por aquellos que amamos."
+        ],
+        "director" : "Francis Ford Coppola",
+        "productor" : "Albert S. Ruddy",
+        "country" : "Estados Unidos",
+        "year" : "1972",
+        "gen" : "Acción, Drama, Crimen, Suspenso"
+
+    }
 }
