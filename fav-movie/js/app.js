@@ -110,28 +110,3 @@ const addTextoResume = () => {
     console.error('Error:', e);
   })
 }
-
-
-
-
-
-
-
-const handleSliders = () => {
-  fetch('info-slide.json')
-    .then(Response => {
-      if(!Response.ok) {
-        throw new Error('Error al leer la data')
-      }
-      console.log('Se accedió a la informacion')
-      return Response.json
-    })
-    .then(data => {
-      for(let i = 0; i < data.knowledge.lenght(); i++) {
-        sliders.appendChild(cargarSliders(knowledge, i))
-      }
-    })
-  console.log('Generando todos los slides')
-
-
-}

@@ -1,0 +1,19 @@
+.accordion .accordion-item h2 button {
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.accordion .accordion-item .accordion-body p {
+    color: #000000;
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+
+.accordion .accordion-item .accordion-body img {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    width: 100%;
+}
