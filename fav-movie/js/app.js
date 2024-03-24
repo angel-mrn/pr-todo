@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   addTextoSlide()
   addTextoAboutMovie()
   addTextoResume()
+  setItemsCharacters()
 })
 
 
@@ -105,6 +106,34 @@ const addTextoResume = () => {
       parrafo.textContent = element
       containerDesenlace.appendChild(parrafo)
     })
+  })
+  .catch(e => {
+    console.error('Error:', e);
+  })
+}
+
+const setItemsCharacters = () => {
+  fetch('../data/info-slide.json')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Error al obtener información');
+    }
+    return response.json();
+  })
+  .then(data => {
+    // Info obtenida
+    const { characters } = data
+    const contenedorLista = document.getElementById('characterList')
+
+    characters.forEach(element => {
+      const link = document.createElement('button')
+      link.classList.add('list-group-item')
+      link.classList.add('list-group-item-action')
+      link.setAttribute('type', 'button')
+      link.textContent = element.personaje
+      contenedorLista.appendChild(link)
+    })
+
   })
   .catch(e => {
     console.error('Error:', e);
