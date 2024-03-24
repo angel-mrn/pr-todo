@@ -50,5 +50,22 @@
         "year" : "1972",
         "gen" : "Acción, Drama, Crimen, Suspenso"
 
-    }
+    },
+    "resumen" : {
+        "inicio" : [
+            "\"El Padrino\" arranca con la opulenta boda de la hija de Don Vito Corleone, patriarca de la familia Corleone, una de las cinco familias que dominan el crimen organizado en Nueva York. En esta ceremonia, se nos presentan los personajes clave: Don Vito, su hijo mayor Sonny, el abogado de la familia Tom Hagen, el hijo adoptivo y miembro de la familia Tomás (Tommy) Hagen, y el hijo menor Michael, quien, a pesar de estar alejado de los asuntos de la familia, regresa para la ocasión. Don Vito, conocido por su habilidad para hacer favores y su código de honor, es respetado y temido por igual."
+        ],
+        "desarrollo" : [
+            "El conflicto principal surge cuando Sollozzo, un traficante de drogas, busca el respaldo de Don Vito para su negocio. Sin embargo, Don Vito se opone, ya que no quiere introducir drogas en su red de crimen organizado. La negativa de Don Vito desencadena una serie de eventos violentos, incluido un intento de asesinato contra él, perpetrado por Sollozzo y el capitán de policía corrupto McCluskey.", 
+            "Con Don Vito convaleciente, la familia se ve en una situación crítica. Michael, quien originalmente había evitado involucrarse en los asuntos criminales de la familia, se convierte en un jugador clave. Se embarca en una misión para vengar el atentado contra su padre, lo que marca el inicio de su transformación de hijo pródigo a líder despiadado. Michael mata a Sollozzo y a McCluskey en un restaurante, y se ve obligado a huir a Sicilia para escapar de la represalia."
+        ],
+        "desenlace" : [
+            "El desenlace de la película muestra a Michael regresando a Nueva York después de la muerte de su padre. Asume el liderazgo de la familia Corleone y consolida su poder, eliminando a los enemigos restantes y expandiendo el imperio de la familia. La película concluye con Michael siendo reconocido formalmente como el nuevo \"Padrino\" de la familia Corleone durante la boda de Connie, su hermana, aunque este ascenso al poder viene con un alto precio personal y moral. Michael, una vez un joven idealista ajeno a los asuntos criminales, se ha transformado en un líder implacable y calculador, cuyas acciones tendrán consecuencias devastadoras en su vida y en la de su familia.",
+            "La película concluye con Michael siendo reconocido formalmente como el nuevo \"Padrino\" de la familia Corleone durante la boda de Connie, su hermana, aunque este ascenso al poder viene con un alto precio personal y moral. Michael, una vez un joven idealista ajeno a los asuntos criminales, se ha transformado en un líder implacable y calculador, cuyas acciones tendrán consecuencias devastadoras en su vida y en la de su familia."
+        ]
+        
+    },
+    "quotes": [
+
+    ]
 }

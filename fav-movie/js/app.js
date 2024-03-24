@@ -66,14 +66,17 @@ const addTextoAboutMovie = () => {
     document.getElementById('movieCountry').textContent = country
     document.getElementById('movieYear').textContent = year
     document.getElementById('movieGen').textContent = gen
-
-    
-
   })
   .catch(e => {
     console.error('Error:', e);
   })
 }
+
+
+
+
+
+
 
 
 const handleSliders = () => {
