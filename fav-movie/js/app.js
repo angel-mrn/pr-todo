@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   addTextoSlide()
   addTextoAboutMovie()
+  addTextoResume()
 })
 
 
@@ -72,6 +73,43 @@ const addTextoAboutMovie = () => {
   })
 }
 
+const addTextoResume = () => {
+  fetch('../data/info-slide.json')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Error al obtener información');
+    }
+    return response.json();
+  })
+  .then(data => {
+    // Info obtenida
+    const { inicio, desarrollo, desenlace } = data["resumen"]
+    const containerInicio = document.getElementById('inicio')
+    const containerDesarrollo = document.getElementById('desarrollo')
+    const containerDesenlace = document.getElementById('desenlace')
+    
+    inicio.forEach(element => {
+      const parrafo = document.createElement('p')
+      parrafo.textContent = element
+      containerInicio.appendChild(parrafo)
+    })
+
+    desarrollo.forEach(element => {
+      const parrafo = document.createElement('p')
+      parrafo.textContent = element
+      containerDesarrollo.appendChild(parrafo)
+    })
+
+    desenlace.forEach(element => {
+      const parrafo = document.createElement('p')
+      parrafo.textContent = element
+      containerDesenlace.appendChild(parrafo)
+    })
+  })
+  .catch(e => {
+    console.error('Error:', e);
+  })
+}
 
 
 
