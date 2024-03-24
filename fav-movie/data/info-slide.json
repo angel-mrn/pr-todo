@@ -67,43 +67,43 @@
     },
     "characters": [
         {
-            "id" : 1,
+            "id" : 0,
             "actor" : "Marlon Brando",
             "personaje" : "Don Vito Corleone",
             "descripcion" : "Es el patriarca de la familia Corleone y el líder indiscutible de la mafia ítalo-americana en Nueva York. Conocido como \"El Padrino\", Don Vito es respetado y temido por su astucia, su código de honor y su capacidad para hacer favores."
         },
         {
-            "id" : 2,
+            "id" : 1,
             "actor" : "Al Pacino",
             "personaje" : "Michael Corleone",
             "descripcion" : "Es el hijo menor de Don Vito y el protagonista principal de la película. Al principio de la historia, Michael es un joven aparentemente ajeno a los negocios criminales de su familia, pero a medida que avanza la trama, se ve obligado a asumir un papel cada vez más prominente en la organización."
         },
         {
-            "id" : 3,
+            "id" : 2,
             "actor" : "James Caan",
             "personaje" : "Sonny Corleone",
             "descripcion" : "Es el hijo mayor de Don Vito y un personaje de gran carácter y temperamento. Sonny es impulsivo y violento, lo que a menudo lo lleva a enfrentarse a otros miembros de la familia y a tomar decisiones precipitadas."
         },
         {
-            "id" : 4,
+            "id" : 3,
             "actor" : "Robert Duvall",
             "personaje" : "Tom Hagen",
             "descripcion" : "Es el abogado de la familia Corleone y uno de los consejeros más cercanos de Don Vito. Aunque no es un miembro de sangre de la familia, Tom es leal a los Corleone y desempeña un papel crucial en la toma de decisiones y la resolución de conflictos."
         },
         {
-            "id" : 5,
+            "id" : 4,
             "actor" : "Diane Keaton",
             "personaje" : "Kay Adams",
             "descripcion" : "Es la novia y posteriormente esposa de Michael. Aunque inicialmente ajena al mundo de la mafia, Kay se ve arrastrada a la vida de los Corleone y se convierte en testigo de los oscuros secretos y la violencia que rodea a la familia."
         },
         {
-            "id" : 6,
+            "id" : 5,
             "actor" : "John Cazale",
             "personaje" : "Fredo Corleone",
             "descripcion" : "Fredo es otro de los hijos de Don Vito y un miembro de la familia Corleone. A diferencia de Sonny y Michael, Fredo es considerado más débil y menos competente en los asuntos familiares. A lo largo de la película, su relación con Michael se vuelve cada vez más tensa debido a sus debilidades y decisiones desacertadas."
         },
         {
-            "id" : 7,
+            "id" : 6,
             "actor" : "Richard S. Castellano",
             "personaje" : "Peter Clemenza",
             "descripcion" : "Clemenza es un miembro de confianza de la familia Corleone y uno de los capos más antiguos y respetados. Es un hombre de acción y lealtad inquebrantable hacia Don Vito. Clemenza desempeña un papel importante en la organización y en la vida de Michael, siendo uno de sus mentores en el mundo de la mafia."

@@ -129,9 +129,44 @@ const setItemsCharacters = () => {
       const link = document.createElement('button')
       link.classList.add('list-group-item')
       link.classList.add('list-group-item-action')
-      link.setAttribute('type', 'button')
+      link.classList.add('elementoPersonaje')
+      link.value = element.id
       link.textContent = element.personaje
+
+      link.setAttribute('type', 'button')
+      link.setAttribute('data-bs-toggle', 'modal')
+      link.setAttribute('data-bs-target', '#exampleModal')
+
       contenedorLista.appendChild(link)
+    })
+
+    const elementosPersonajes = document.querySelectorAll('.elementoPersonaje')
+
+    const tituloModal = document.getElementById('exampleModalLabel')
+    const cuerpoModal = document.getElementById('textModalCharacter')
+
+    elementosPersonajes.forEach(element => {
+      element.addEventListener('click', () => {
+        const { id, personaje, actor, descripcion } = characters[element.value]
+        
+        tituloModal.textContent = personaje
+
+        const parrafo = document.createElement('p')
+        parrafo.innerHTML = `Interpretado por: <strong>${actor}</strong>.`
+        const otroParrafo = document.createElement('p')
+        otroParrafo.textContent = descripcion
+
+        const imagen = document.createElement('img')
+        imagen.setAttribute('src', `../imgs/character/0${id}.jpg`)
+        imagen.setAttribute('alt', 'Foto del personaje')
+        imagen.classList.add('w-100')
+
+        cuerpoModal.innerHTML = ''
+
+        cuerpoModal.appendChild(parrafo)
+        cuerpoModal.appendChild(otroParrafo)
+        cuerpoModal.appendChild(imagen)
+      })
     })
 
   })
