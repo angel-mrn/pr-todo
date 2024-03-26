@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
   setItemsCharacters()
 })
 
-
 const addTextoSlide = () => {
   fetch('../data/info-slide.json')
   .then(response => {
