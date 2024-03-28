@@ -65,7 +65,7 @@
         ]
         
     },
-    "characters": [
+    "characters" : [
         {
             "id" : 0,
             "actor" : "Marlon Brando",
@@ -109,5 +109,28 @@
             "descripcion" : "Clemenza es un miembro de confianza de la familia Corleone y uno de los capos más antiguos y respetados. Es un hombre de acción y lealtad inquebrantable hacia Don Vito. Clemenza desempeña un papel importante en la organización y en la vida de Michael, siendo uno de sus mentores en el mundo de la mafia."
         }
         
-    ]
+    ],
+    "legate" : {
+        "init" : "\"El Padrino\" (1972), dirigida por Francis Ford Coppola, ha dejado un legado perdurable en la historia del cine y la cultura popular. Aquí hay algunas formas en las que la película ha dejado su huella:",
+        "articles" : [
+            {
+                "title" : "Innovación cinematográfica",
+                "desc" : "\"El Padrino\" introdujo nuevas técnicas cinematográficas y narrativas que influyeron en generaciones de cineastas. Coppola innovó con su uso de la iluminación, la composición visual y la narrativa no lineal, elevando el género del cine de mafia a nuevas alturas artísticas."
+            },
+            {
+                "title" : "Impacto cultural",
+                "desc" : "La película se convirtió en un fenómeno cultural y tuvo un impacto profundo en la sociedad. Los personajes icónicos, las líneas de diálogo memorables y la trama épica resonaron en el público, convirtiéndola en una de las películas más influyentes de todos los tiempos."
+            },
+            {
+                "title" : "Legado en la industria del cine",
+                "desc" : "\"El Padrino\" estableció un nuevo estándar de excelencia en la industria del cine, ganando elogios de la crítica y numerosos premios, incluidos tres premios de la Academia, incluyendo Mejor Película. Su éxito inspiró secuelas, películas similares y una serie de imitadores que intentaron replicar su éxito."
+            },
+            {
+                "title" : "Referencias y parodias",
+                "desc" : "La película ha sido referenciada y parodiada en innumerables ocasiones en la cultura popular, desde programas de televisión hasta películas y música. Sus personajes y escenas icónicas se han convertido en parte del tejido de la cultura popular y continúan siendo citadas y homenajeadas hasta el día de hoy."
+            }
+        ],
+        "conclusion" : "En resumen, \"El Padrino\" ha dejado un legado perdurable en la historia del cine y la cultura popular, estableciendo un estándar de excelencia que sigue siendo admirado y celebrado décadas después de su lanzamiento."
+    }
+    
 }

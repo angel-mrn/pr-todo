@@ -6,10 +6,11 @@ document.addEventListener('DOMContentLoaded', () => {
   addTextoAboutMovie()
   addTextoResume()
   setItemsCharacters()
+  setItemsLegado()
 })
 
 const addTextoSlide = () => {
-  fetch('../data/info-slide.json')
+  fetch('../data/info-godfather.json')
   .then(response => {
     if (!response.ok) {
       throw new Error('Error al obtener información');
@@ -35,7 +36,7 @@ const addTextoSlide = () => {
 }
 
 const addTextoAboutMovie = () => {
-  fetch('../data/info-slide.json')
+  fetch('../data/info-godfather.json')
   .then(response => {
     if (!response.ok) {
       throw new Error('Error al obtener información');
@@ -83,7 +84,7 @@ const addTextoAboutMovie = () => {
 }
 
 const addTextoResume = () => {
-  fetch('../data/info-slide.json')
+  fetch('../data/info-godfather.json')
   .then(response => {
     if (!response.ok) {
       throw new Error('Error al obtener información');
@@ -121,7 +122,7 @@ const addTextoResume = () => {
 }
 
 const setItemsCharacters = () => {
-  fetch('../data/info-slide.json')
+  fetch('../data/info-godfather.json')
   .then(response => {
     if (!response.ok) {
       throw new Error('Error al obtener información');
@@ -181,4 +182,45 @@ const setItemsCharacters = () => {
   .catch(e => {
     console.error('Error:', e);
   })
+}
+
+const setItemsLegado = () => {
+  fetch('../data/info-godfather.json')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Error al obtener información');
+    }
+    return response.json();
+  })
+  .then(data => {
+    const { articles } = data["legate"]
+    const contenedor = document.getElementById('contenedorLegado')
+
+    articles.forEach(article => {
+      const ran = document.createElement('div')
+      ran.classList.add('card')
+      ran.classList.add('shadow')
+      const dan = document.createElement('div')
+      dan.classList.add('card-body')
+      const fra = document.createElement('h5')
+      fra.textContent = article["title"]
+      const day = document.createElement('p')
+      day.textContent = article["desc"]
+
+      dan.appendChild(fra)
+      dan.appendChild(day)
+      ran.appendChild(dan)
+      contenedor.appendChild(ran)
+    })
+  })
+
+  /*
+  <div class="card w-50">
+  g-col-6 g-col-md-4
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    </div>
+  </div>
+  */
 }
