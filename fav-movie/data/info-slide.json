@@ -48,7 +48,7 @@
         "productor" : "Albert S. Ruddy",
         "country" : "Estados Unidos",
         "year" : "1972",
-        "gen" : "Acción, Drama, Crimen, Suspenso"
+        "gen" : ["Acción", "Drama", "Crimen", "Suspenso"]
 
     },
     "resumen" : {

@@ -66,7 +66,16 @@ const addTextoAboutMovie = () => {
     document.getElementById('movieProductor').textContent = productor
     document.getElementById('movieCountry').textContent = country
     document.getElementById('movieYear').textContent = year
-    document.getElementById('movieGen').textContent = gen
+    
+    gen.forEach(element => {
+      const nap = document.createElement('span')
+      nap.classList.add('badge')
+      nap.classList.add('text-bg-success')
+      nap.textContent = element
+      document.getElementById('movieGen').appendChild(nap)
+    });
+
+    // <span class="badge text-bg-success">Success</span>
   })
   .catch(e => {
     console.error('Error:', e);

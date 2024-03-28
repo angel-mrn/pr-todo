@@ -44,3 +44,10 @@
     font-weight: 300;
     color: #000000;
 }
+
+#aboutMovie .collectionInfo span .badge {
+    background-color: #20873E;
+    padding: 7.5px 12.5px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+}
