@@ -253,8 +253,18 @@ const addImagesGallery = () => {
   for(let i = 1; i<= CANTIDAD_IMGS_GALLERY; i++) {
     const imagen = document.createElement('img')
     const miniContenedor = document.createElement('div')
+    miniContenedor.classList.add('miniContenedorFoto')
     imagen.setAttribute('src', `./imgs/gal/bc-${i}.jpg`)
+    imagen.classList.add('imagenGaleria')
+
+    const enlaceDescarga = document.createElement('div')
+    //enlaceDescarga.href = imagen.src
+    enlaceDescarga.classList.add('contenedorDescarga')
+    //enlaceDescarga.download = `gallery-the-godfather-${i}.jpg`
+    enlaceDescarga.textContent = 'Descargar foto'
+
     miniContenedor.appendChild(imagen)
+    miniContenedor.appendChild(enlaceDescarga)
     contenedor.appendChild(miniContenedor)
   }
 }
