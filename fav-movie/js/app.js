@@ -75,7 +75,8 @@ const addTextoAboutMovie = () => {
 
     review.forEach(element => {
       const parrafo = document.createElement('p')
-      parrafo.className = 'reviewMK'
+      parrafo.classList.add('reviewMK')
+      parrafo.classList.add('animacionTexto')
       parrafo.textContent = element
 
       contenidoInfo.appendChild(parrafo)
