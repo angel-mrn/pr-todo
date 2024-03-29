@@ -1,3 +1,4 @@
+
 const CANTIDAD_IMGS_GALLERY = 12
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -258,11 +259,21 @@ const addImagesGallery = () => {
     imagen.classList.add('imagenGaleria')
 
     const enlaceDescarga = document.createElement('div')
-    //enlaceDescarga.href = imagen.src
     enlaceDescarga.classList.add('contenedorDescarga')
-    //enlaceDescarga.download = `gallery-the-godfather-${i}.jpg`
-    enlaceDescarga.textContent = 'Descargar foto'
+    
+    const textoDescarga = document.createElement('p')
+    textoDescarga.textContent = 'Descargar foto'
 
+    const botonDescarga = document.createElement('a')
+    botonDescarga.href = imagen.src
+    botonDescarga.download = `gallery-the-godfather-${i}.jpg`
+
+    const logoDescarga = document.createElement('img')
+    logoDescarga.src = './imgs/download.svg'
+    
+    botonDescarga.appendChild(logoDescarga)
+    enlaceDescarga.appendChild(textoDescarga)
+    enlaceDescarga.appendChild(botonDescarga)
     miniContenedor.appendChild(imagen)
     miniContenedor.appendChild(enlaceDescarga)
     contenedor.appendChild(miniContenedor)
