@@ -1,0 +1,54 @@
+
+#legateMovie {
+    background-color: #E7E7E7;
+}
+
+#legateMovie .row #legatePlaneOne {
+    background-image: url(/imgs/lateral/first.jpg);
+    background-size: cover;
+    background-position: center center;
+    transition: all 0.5s ease;
+}
+
+#legateMovie .row #legatePlaneTwo {
+    background-image: url(/imgs/lateral/second.jpg);
+    background-size: cover;
+    background-position: center center;
+    transition: all 0.5s ease;
+}
+
+#legateMovie .row #legatePlaneOne:hover {
+    opacity: 0.5;
+}
+
+#legateMovie .row #legatePlaneTwo:hover {
+    opacity: 0.5;
+}
+
+#legateMovie .row #contenedorLegado {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+@media screen and (min-width: 992px) {
+    #legateMovie .row #contenedorLegado {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+}
+
+#legateMovie .row #contenedorLegado .card h5 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #1F4767;
+    font-weight: 500;
+}
+
+#legateMovie .row #contenedorLegado .card p {
+    text-align: justify;
+    margin: 0px;
+    letter-spacing: 0.75px;
+    font-weight: 350;
+}
