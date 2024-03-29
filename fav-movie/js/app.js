@@ -1,6 +1,9 @@
+const CANTIDAD_IMGS_GALLERY = 12
+
 document.addEventListener('DOMContentLoaded', () => {
   console.log('Todo ha sido cargado con éxito')
 
+  addImagesGallery()
   addTextoSlide()
   addTextoAboutMovie()
   addTextoResume()
@@ -242,4 +245,16 @@ const setItemsLegado = () => {
     </div>
   </div>
   */
+}
+
+const addImagesGallery = () => {
+  const contenedor = document.getElementById('contenedorFotos')
+
+  for(let i = 1; i<= CANTIDAD_IMGS_GALLERY; i++) {
+    const imagen = document.createElement('img')
+    const miniContenedor = document.createElement('div')
+    imagen.setAttribute('src', `./imgs/gal/bc-${i}.jpg`)
+    miniContenedor.appendChild(imagen)
+    contenedor.appendChild(miniContenedor)
+  }
 }
