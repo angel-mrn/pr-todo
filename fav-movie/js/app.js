@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', () => {
   console.log('Todo ha sido cargado con éxito')
 
@@ -8,6 +7,25 @@ document.addEventListener('DOMContentLoaded', () => {
   setItemsCharacters()
   setItemsLegado()
 })
+
+const moveSlide = () => {
+  const boton = document.querySelector('.carousel-control-next')
+  const todoHero = document.getElementById('carouselExampleCaptions')
+  setInterval(() => {
+    isVisible(todoHero) ? boton.click() : ''
+  }, 5000)
+}
+
+const isVisible = (element) => {
+  var tool = element.getBoundingClientRect()
+
+  return (
+      tool.top >= 0 &&
+      tool.left >= 0 &&
+      tool.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+      tool.right <= (window.innerWidth || document.documentElement.clientWidth)
+  )
+}
 
 const addTextoSlide = () => {
   fetch('../data/info-godfather.json')
