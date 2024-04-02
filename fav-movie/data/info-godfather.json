@@ -131,6 +131,53 @@
             }
         ],
         "conclusion" : "En resumen, \"El Padrino\" ha dejado un legado perdurable en la historia del cine y la cultura popular, estableciendo un estándar de excelencia que sigue siendo admirado y celebrado décadas después de su lanzamiento."
-    }
-    
+    },
+    "phrases" : [
+        {
+            "author" : "Don Vito Corleone",
+            "say" : "\"Me gustaría discutir con ustedes una proposición de negocios.\""
+        },
+        {
+            "author" : "Michael Corleone",
+            "say" : "\"Nunca odies a tus enemigos, afecta tu juicio.\""
+        },
+        {
+            "author" : "Don Vito Corleone",
+            "say" : "\"Detesto la violencia, es inútil, causa más problemas de los que resuelve.\""
+        },
+        {
+            "author" : "Don Vito Corleone",
+            "say" : "\"Un hombre que no pasa tiempo con su familia no puede ser considerado un hombre de verdad.\""
+        },
+        {
+            "author" : "Virgil Sollozzo",
+            "say" : "\"Es la primera vez que veo a un hombre disparar a otro hombre en la cara y seguir comiendo con él.\""
+        },
+        {
+            "author" : "Don Vito Corleone",
+            "say" : "\"Luca Brasi durmió con los peces.\""
+        }
+    ],
+    "critiques" : [
+        {
+            "author" : "Martin Scorsese",
+            "say" : "Es el Shakespeare americano. Es la obra maestra más influyente en la historia del cine. Siempre tengo la sensación de que 'El Padrino' cambió el cine para siempre."
+        },
+        {
+            "author" : "Francis Ford Coppola",
+            "say" : "La influencia de 'El Padrino' en la próxima generación de cineastas ha sido profunda y duradera. Es difícil imaginar cómo sería el cine moderno sin ella."
+        },
+        {
+            "author" : "Quentin Tarantino",
+            "say" : "Es la película que me hizo querer ser director."
+        },
+        {
+            "author" : "Steven Spielberg",
+            "say" : "Ninguna película ha tenido un impacto tan grande en mí como 'El Padrino'. Me cambió completamente la manera de pensar sobre el cine y sobre la vida."
+        },
+        {
+            "author" : "Christopher Nolan",
+            "say" : "Cada vez que veo 'El Padrino', descubro algo nuevo. Es una obra maestra en todos los sentidos de la palabra."
+        }
+    ]
 }
